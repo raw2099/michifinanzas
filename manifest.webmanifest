@@ -1,0 +1,13 @@
+{
+  "name": "MichiFinanzas",
+  "short_name": "MichiFinanzas",
+  "description": "Finanzas personales con fondos, presupuestos, metas y acompañamiento de Michi.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fff8f3",
+  "theme_color": "#fff8f3",
+  "icons": [
+    {"src":"./icons/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ]
+}
