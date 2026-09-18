@@ -5,3 +5,5 @@ Aplicación personal de finanzas con sincronización en Supabase y respaldo opci
 ## Estado
 
 Versión funcional en desarrollo. Despliegue recomendado: GitHub → Vercel.
+
+Última verificación de despliegue: 2026-09-18.
