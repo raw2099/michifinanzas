@@ -1,5 +1,5 @@
-const CACHE='michifinanzas-v710';
-const CORE=['./','./index.html','./manifest.webmanifest','./icons/icon.svg','./config.js'];
+const CACHE='michifinanzas-v711';
+const CORE=['./','./index.html','./manifest.webmanifest','./icons/icon.svg','./config.js','./assets/michi/hero.svg','./assets/michi/home-analyst.svg','./assets/michi/advice.svg','./assets/michi/movements.svg','./assets/michi/funds.svg','./assets/michi/planning.svg','./assets/michi/reports.svg','./assets/michi/profile.svg','./assets/michi/michi-center.svg','./assets/michi/onboarding.svg'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
 self.addEventListener('fetch',e=>{
